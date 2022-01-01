@@ -1,0 +1,141 @@
+body {
+  color: rgb(102, 98, 98);
+  background-color: rgb(236, 235, 232);
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(82, 81, 79);
+  font-weight: 600;
+}
+/* -- MASTER VIEW -- */
+
+#masterView {
+  min-height: inherit;
+  min-width: 100%;
+  margin: 0;
+}
+
+/* -- NAV BAR -- */
+
+#nav {
+  height: 80px;
+  background-color: #182848;
+}
+
+#navHead,
+#navHead h2,
+#navHead h3 {
+  float: right;
+  color: #ffffff;
+  vertical-align: middle;
+  transform: translate(0%, 15%);
+}
+#navHead h4 {
+  float: right;
+  color: #ffffff;
+  vertical-align: middle;
+  transform: translate(0%, 35%);
+}
+
+#navHead p {
+  float: right;
+  color: #ffffff;
+  vertical-align: middle;
+  transform: translate(0%, 50%);
+  padding-left: 15px;
+}
+
+#logo {
+  max-width: 200px;
+}
+
+#logo img {
+  height: 70px;
+  width: auto;
+}
+
+/* -- MENU -- */
+
+.nav-link:hover {
+  color: #5f9ea0 !important;
+}
+
+#menu {
+  min-height: 100vh;
+  max-width: 200px;
+  margin: 0;
+  padding: 40px 20px 20px 20px;
+  background: linear-gradient(30deg, #4b6cb7 0%, #182848 50%, #182848 100%);
+  bottom: 0vmax;
+  overflow: hidden;
+  bottom: 0vmax;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.active {
+  color: #40e0d0 !important;
+}
+
+/* -- DISPLAY ROOM -- */
+#displayRoom {
+  box-shadow: 2px 2px 20px 3px rgb(216, 202, 204) inset;
+}
+
+/* -- FOOTER -- */
+footer {
+  position: fixed;
+  height: 80px;
+  bottom: 0vmax;
+  width: 100%;
+}
+
+/* -- LOGIN SCREEN -- */
+
+#login {
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#login img {
+  border-radius: 15px;
+  background: linear-gradient(60deg, #4b6cb7 0%, #182848 50%, #182848 100%);
+  display: block;
+  margin: 25px auto;
+  min-width: 400px;
+  padding: 15px;
+}
+
+#login h2 {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#login form {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+#login label {
+  color: rgb(102, 98, 98);
+}
+
+#login .btn {
+  margin: 25px 0;
+  float: right;
+}
